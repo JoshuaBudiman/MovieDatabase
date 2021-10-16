@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cons_movie_details"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/darkblack"
+    tools:context=".view.MovieDetailsActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/img_poster_details"
+                android:layout_width="144dp"
+                android:layout_height="200dp"
+                android:layout_marginTop="16dp"
+                android:contentDescription="@string/img"
+                android:scaleType="centerInside"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@android:drawable/ic_menu_report_image" />
+
+            <TextView
+                android:id="@+id/lbl_movie_details"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:fontFamily="sans-serif"
+                android:maxLines="1"
+                android:text="@string/title"
+                android:textColor="@color/gold"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="@+id/img_poster_details"
+                app:layout_constraintStart_toStartOf="@+id/img_poster_details"
+                app:layout_constraintTop_toBottomOf="@+id/img_poster_details" />
+
+            <TextView
+                android:id="@+id/lbl_movie_details_rating"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="@string/rating"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                app:layout_constraintEnd_toEndOf="@+id/img_poster_details"
+                app:layout_constraintStart_toStartOf="@+id/img_poster_details"
+                app:layout_constraintTop_toBottomOf="@+id/lbl_movie_details" />
+
+            <ImageView
+                android:id="@+id/img_poster_rating_details"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/img"
+                app:layout_constraintBottom_toBottomOf="@+id/lbl_movie_details_rating"
+                app:layout_constraintStart_toEndOf="@+id/lbl_movie_details_rating"
+                app:layout_constraintTop_toTopOf="@+id/lbl_movie_details_rating"
+                app:srcCompat="@android:drawable/btn_star_big_on" />
+
+            <TextView
+                android:id="@+id/lbl_movie_details_desc"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="24dp"
+                android:text="@string/subtitle"
+                android:textColor="@color/gold"
+                android:textSize="18sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/lbl_movie_details_rating" />
+
+            <TextView
+                android:id="@+id/lbl_movie_details_release"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:text="@string/subtitle"
+                android:textColor="@color/material_on_primary_emphasis_medium"
+                android:textSize="16sp"
+                app:layout_constraintEnd_toEndOf="@+id/lbl_movie_details_desc"
+                app:layout_constraintStart_toStartOf="@+id/lbl_movie_details_desc"
+                app:layout_constraintTop_toBottomOf="@+id/lbl_movie_details_desc" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
