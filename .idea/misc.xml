@@ -3,10 +3,19 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/JOSHUA/Desktop/MobileAppDev/MovieDatabase/app/src/main/res/drawable/blue_gradient.xml" value="0.2703125" />
+        <entry key="..\:/Users/JOSHUA/Desktop/MobileAppDev/MovieDatabase/app/src/main/res/drawable/blue_gradient_sideways.xml" value="0.2703125" />
         <entry key="..\:/Users/JOSHUA/Desktop/MobileAppDev/MovieDatabase/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/Users/JOSHUA/Desktop/MobileAppDev/MovieDatabase/app/src/main/res/layout/activity_main_menu.xml" value="0.176" />
         <entry key="..\:/Users/JOSHUA/Desktop/MobileAppDev/MovieDatabase/app/src/main/res/layout/activity_movie_details.xml" value="0.264" />
         <entry key="..\:/Users/JOSHUA/Desktop/MobileAppDev/MovieDatabase/app/src/main/res/layout/activity_now_playing.xml" value="0.16" />
         <entry key="..\:/Users/JOSHUA/Desktop/MobileAppDev/MovieDatabase/app/src/main/res/layout/card_now_playing.xml" value="0.264" />
+        <entry key="..\:/Users/JOSHUA/Desktop/MobileAppDev/MovieDatabase/app/src/main/res/layout/card_production_company.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/JOSHUA/Desktop/MobileAppDev/MovieDatabase/app/src/main/res/layout/fragment_movie_details.xml" value="0.264" />
+        <entry key="..\:/Users/JOSHUA/Desktop/MobileAppDev/MovieDatabase/app/src/main/res/layout/fragment_now_playing.xml" value="0.176" />
+        <entry key="..\:/Users/JOSHUA/Desktop/MobileAppDev/MovieDatabase/app/src/main/res/layout/fragment_up_coming.xml" value="0.16" />
+        <entry key="..\:/Users/JOSHUA/Desktop/MobileAppDev/MovieDatabase/app/src/main/res/layout/loading_dialog.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/JOSHUA/Desktop/MobileAppDev/MovieDatabase/app/src/main/res/menu/main_menu.xml" value="0.176" />
       </map>
     </option>
   </component>

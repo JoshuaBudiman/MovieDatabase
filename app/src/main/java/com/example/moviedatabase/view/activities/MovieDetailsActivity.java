@@ -1,4 +1,4 @@
-package com.example.moviedatabase.view;
+package com.example.moviedatabase.view.activities;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.lifecycle.Observer;

@@ -4,8 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/cons_card_nowplaying"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:background="@color/darkblack">
+    android:layout_height="wrap_content">
 
     <androidx.cardview.widget.CardView
         android:id="@+id/cv_card_nowplaying"
@@ -26,7 +25,7 @@
             android:id="@+id/cons_cv_card_nowplaying"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@color/black">
+            android:background="@drawable/blue_gradient">
 
             <ImageView
                 android:id="@+id/img_poster_card_nowplaying"
@@ -49,7 +48,7 @@
                 android:layout_marginEnd="16dp"
                 android:maxLines="1"
                 android:text="@string/title"
-                android:textColor="@color/gold"
+                android:textColor="@color/white"
                 android:textSize="16sp"
                 android:textStyle="bold"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -63,7 +62,7 @@
                 android:layout_marginTop="8dp"
                 android:maxLines="2"
                 android:text="@string/subtitle"
-                android:textColor="@color/gold"
+                android:textColor="@color/white"
                 app:layout_constraintEnd_toEndOf="@+id/lbl_title_card_nowplaying"
                 app:layout_constraintStart_toStartOf="@+id/lbl_title_card_nowplaying"
                 app:layout_constraintTop_toBottomOf="@+id/lbl_title_card_nowplaying" />
@@ -73,7 +72,6 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:text="@string/subtitle"
-                android:textColor="@color/material_on_primary_emphasis_medium"
                 android:textSize="12sp"
                 app:layout_constraintBottom_toBottomOf="@+id/img_poster_card_nowplaying"
                 app:layout_constraintEnd_toEndOf="@+id/lbl_overview_card_nowplaying"
